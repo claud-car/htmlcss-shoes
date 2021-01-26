@@ -4,12 +4,51 @@
   box-sizing:border-box;
 }
 
-h1{
+.pagina-1:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* h1{
   text-align: center;
   padding: 0 30%;
   padding-top: 80vh;
   color:purple;
   font-size: 50px;
+  font-weight: bold;
+} */
+
+h1{
+  position: absolute;
+  top:80%;
+  left: 50%;
+  color:purple;
+  font-size: 50px;
+  font-weight: bold;
+  transform: translate(-50%,-50%);
+}
+
+nav{
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  width: 15%;
+  height: 100px;
+  position: fixed;
+  top:0;
+  right: 0;
+  z-index: 1;
+}
+
+p{
+  color: black;
+  background-color: white;
+  line-height: 100px;
+  margin-right: 10px;
+  display: inline;
+  margin: 0 15px;
+  font-size:20px;
   font-weight: bold;
 }
 
