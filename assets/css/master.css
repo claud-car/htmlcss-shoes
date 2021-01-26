@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+h1{
+  text-align: center;
+  padding: 0 30%;
+  padding-top: 80vh;
+  color:purple;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* CLASSI */
+
+[class^="pag"]{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.pagina-1{
+  background-color: lightblue;
+}
+
+.pagina-2{
+  background-color: lightgrey;
+}
+
+.pagina-3{
+  background-color: lightblue;
+}
+
+.img-scarpa{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
