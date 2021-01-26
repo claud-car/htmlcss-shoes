@@ -7,6 +7,19 @@
 
 /* SELETTORI TAG */
 
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
 h1 , h2 , h3{
   font-size: 50px;
 }
