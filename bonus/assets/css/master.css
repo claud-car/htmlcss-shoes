@@ -5,20 +5,22 @@
   scroll-behavior: smooth;
 }
 
-/* SELETTORI TAG */
-
+/* SELETTORI CHE PERMETTONO IL RESTART DELLA PAGINA AL REFRESH */
 body {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
 }
 
 html {
-    height: 100vh;
-    overflow: hidden;
-    width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
+/* SELETTORI CHE PERMETTONO IL RESTART DELLA PAGINA AL REFRESH */
+
+/* SELETTORI TAG */
 
 h1 , h2 , h3{
   font-size: 50px;
@@ -84,6 +86,8 @@ a{
 
 #pagina-2{
   background-color: lightgrey;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #pagina-3{
