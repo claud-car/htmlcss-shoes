@@ -4,11 +4,7 @@
   box-sizing:border-box;
 }
 
-.pagina-1:after{
-  content: "";
-  clear: both;
-  display: table;
-}
+/* SELETTORI TAG */
 
 h1 , h2 , h3{
   font-size: 50px;
@@ -38,6 +34,12 @@ p{
 }
 
 /* CLASSI */
+
+.pagina-1:after{
+  content: "";
+  clear: both;
+  display: table;
+}
 
 [class^="pag"]{
   width: 100%;
